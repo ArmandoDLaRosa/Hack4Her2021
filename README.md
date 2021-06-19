@@ -1,7 +1,7 @@
 # GirUp Hack4Her 2021
 
 ## Build AWS EC3 RDS Server
-![Amazon](https://github.com/ArmandoDLaRosa/SAINT-ImagineLabs-Datathon-2021-Python-Tableau/blob/main/Server/Create%20Database.png)
+![Amazon](https://github.com/ArmandoDLaRosa/Hack4Her2021/blob/main/Server/Create%20Database.png)
 
   ### Create Database
     1) Select in 'Choose a database creation method'
