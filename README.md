@@ -19,4 +19,5 @@
     3) Generate Master password
 
   ### Connectivity
-	In public Access, select Yes.
+    Only approved ip addresses (from the team) may have access 
+    to the server as administrators
