@@ -34,4 +34,5 @@
     7) Set app.js as the entry point, and accept all default settings
     8) Install libraries with the following command... npm install axios body-parser express ejs
     9) Add nodemon app.js to script inside the package.json file
-    10) Start NPM
+    10) Create app.js file... Establish 8080 as port and recheck if npm is started by command app.listen(port,() => console.log(`Escuchando el puerto ${port}`))
+    11) Start NPM
