@@ -23,3 +23,15 @@
     to the server as administrators
     
     Added our IP addresses to inbound and outbound rules allowing all traffic
+
+  ### Create and set up Node JS Express
+    1) Firstly, create 2 folders, main web application and web api
+    2) Open the terminal
+    3) Change directory to the main web application folder
+    4) Check if npm and node are installed with commands in terminal (npm -v | node --version)
+    5) Initialize npm with command npm init
+    6) Fill the blanks
+    7) Set app.js as the entry point, and accept all default settings
+    8) Install libraries with the following command... npm install axios body-parser express ejs
+    9) Add nodemon app.js to script inside the package.json file
+    10) Start NPM
