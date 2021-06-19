@@ -21,3 +21,5 @@
   ### Connectivity
     Only approved ip addresses (from the team) may have access 
     to the server as administrators
+    
+    Added our IP addresses to inbound and outbound rules allowing all traffic
