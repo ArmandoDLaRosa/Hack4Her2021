@@ -36,3 +36,5 @@
     9) Add nodemon app.js to script inside the package.json file
     10) Create app.js file... Establish 3000 as port and recheck if npm is started by command app.listen(port,() => console.log(`Escuchando el puerto ${port}`))
     11) Start NPM
+    12) Add static files and template engine settings to the app.js file
+    13) Start NPM service again
