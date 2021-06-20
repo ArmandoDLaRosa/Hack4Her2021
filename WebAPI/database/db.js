@@ -1,4 +1,21 @@
-const sql = require('mysql');
+var sql = require('mysql');
+
+var config = sql.createConnection({
+  host: "hack4her.c4hj7dzeiz1t.us-east-2.rds.amazonaws.com",
+  user: "dbadmin",
+  password: "kwTjn5G5Wt4u6GG4",
+  database: "hack4her_db"
+});
+
+config.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+
+});
+
+
+
+/*const sql = require('mysql');
 
 const config = {
   user: 'dbadmin',
@@ -10,7 +27,7 @@ const config = {
   },
 };
 const poolPromise = new sql.ConnectionPool(config)
-  .connect()
+  poolPromise.connect()
   .then((pool) => {
     console.log('Connected to MYSQL');
     return pool;
@@ -25,4 +42,4 @@ module.exports = {
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
-});
+});*/
