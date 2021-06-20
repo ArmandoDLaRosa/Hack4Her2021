@@ -1,17 +1,12 @@
 # GirUp Hack4Her 2021
 
-## Build AWS EC3 RDS Server
+## Build Azure SQL Server
 ![Amazon](https://github.com/ArmandoDLaRosa/Hack4Her2021/blob/main/Server/azure.png)
 
   ### Create Database
-    1) Select in 'Choose a database creation method'
-       Standard create
-    2) Select in 'Engine options'
-       2.0)  MySQL
-       2.1) Edition MySQL community
-
+    1) Select Create SQL Database
   ### Template
-    1)  Select Free Tier
+    1)  Azure for students
   
   ### Settings
     1) Generate the DB instance identifier
